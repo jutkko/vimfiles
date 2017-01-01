@@ -31,12 +31,12 @@ if exists('+colorcolumn')
   set colorcolumn=80 " Color the 80th column differently
 endif
 
+set lazyredraw
 " Behaviors {{{
 filetype plugin indent on  " Automatically detect file types. (must turn on after Vundle)
 set wildmode=list:longest " use emacs-style tab completion when selecting files, etc
 set hidden             " Change buffer - without saving
 set autowriteall       " Writes on make/shell commands
-" set foldmethod=syntax
 set foldlevel=20
 set formatoptions=crql
 set iskeyword+=$,@,-     " Add extra characters that are valid parts of variables
