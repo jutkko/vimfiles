@@ -68,5 +68,11 @@ endif
   Plug 'fatih/vim-go'
   Plug 'godoctor/godoctor.vim'
 
+  " A solid language pack for Vim.
+  " Adds 70+ languages (syntax and indent only) and optimizes loading and installing.
+  Plug 'sheerun/vim-polyglot'
+
+  Plug 'scrooloose/syntastic'
 " }}}
+
 call plug#end()
