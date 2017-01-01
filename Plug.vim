@@ -64,5 +64,9 @@ endif
 
   " }}}
 
+" Language {{{
+  Plug 'fatih/vim-go'
+  Plug 'godoctor/godoctor.vim'
 
+" }}}
 call plug#end()

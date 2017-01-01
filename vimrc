@@ -9,3 +9,5 @@ runtime! config/plugin/fzf.vim
 runtime! config/plugin/fugitive.vim
 runtime! config/plugin/nerdtree.vim
 runtime! config/plugin/neocomplete.vim
+
+runtime! config/lang/golang.vim
