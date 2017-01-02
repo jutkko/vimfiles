@@ -24,7 +24,7 @@ vmap <leader>S :sort<CR>
 nmap <silent> <space> :noh<cr>
 nmap <silent> <leader>vi :e ~/.vim/vimrc<CR>
 nmap <leader>r :so ~/.vim/vimrc<cr>
-nmap <CR> :w<CR>
+nnoremap <unique> <expr> <CR> empty(&buftype) ? ':w<CR>' : '<CR>'
 " }}}
 
 " Between file movement {{{
