@@ -68,7 +68,7 @@ endif
   " }}}
 
 " Language {{{
-  Plug 'fatih/vim-go'
+  Plug 'fatih/vim-go', { 'do': ':GoInstallBinaries' }
   Plug 'godoctor/godoctor.vim'
 
   " A solid language pack for Vim.
