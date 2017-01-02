@@ -44,6 +44,9 @@ call plug#begin('~/.vim/plugged')
 
 " vim script for text filtering and alignment; e.g. :Tabularize /,
   Plug 'godlygeek/tabular'
+
+" The ultimate undo history visualizer for VIM
+  Plug 'mbbill/undotree'
 " }}}
 
 
