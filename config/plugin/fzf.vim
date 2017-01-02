@@ -1,5 +1,6 @@
 let g:ctrlp_map = ''
 nnoremap <C-p> :FZFFiles<cr>
+nnoremap <leader>f :FZFFiles<cr>
 
 nnoremap <leader>T :FZFTags<cr>
 nnoremap <leader>b :FZFBuffers<cr>
