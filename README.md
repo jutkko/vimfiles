@@ -6,4 +6,4 @@ This config uses plug.vim from
 installation steps from the repo to install the plugin.
 
 ## Installing the plugins
-Open vim and run `:PlugInstall` command
+Open vim and run `:PlugInstall` command.
