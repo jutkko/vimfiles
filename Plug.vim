@@ -39,6 +39,14 @@ call plug#begin('~/.vim/plugged')
 " comment stuff out
   Plug 'tpope/vim-commentary'
 
+" automatically adjusts 'shiftwidth' and 'expandtab' heuristically based
+" on the current file
+  Plug 'tpope/vim-sleuth'
+
+" pairs of handy bracket mappings; e.g. [<Space> and ]<Space> add newlines
+" before and after the cursor line
+  Plug 'tpope/vim-unimpaired'
+
 " add emacs/bash/cocoa key bindings to vim, in insert and command-line modes.
   Plug 'maxbrunsfeld/vim-emacs-bindings'
 
