@@ -3,4 +3,5 @@ let s:colors = [
       \ 'gruvbox',
       \ ]
 
+set background=dark
 colorscheme hybrid
