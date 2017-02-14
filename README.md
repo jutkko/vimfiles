@@ -1,4 +1,5 @@
 # Instructions on how to use this config
+Follow the following steps.
 
 ##
 Use this config with the newest vim.
