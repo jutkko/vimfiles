@@ -66,7 +66,7 @@ endif
 
 " UI Additions {{{
   " Colors {{{
-    Plug 'dolio/vim-hybrid'
+    Plug 'w0ng/vim-hybrid'
     Plug 'morhetz/gruvbox'
     Plug 'flazz/vim-colorschemes'
     Plug 'vim-airline/vim-airline'
