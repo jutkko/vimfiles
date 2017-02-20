@@ -55,6 +55,9 @@ call plug#begin('~/.vim/plugged')
 
 " The ultimate undo history visualizer for VIM
   Plug 'mbbill/undotree'
+
+" Plugin to toggle, display and navigate marks
+  Plug 'kshenoy/vim-signature'
 " }}}
 
 
