@@ -66,6 +66,12 @@ if  has('lua')
   Plug 'Shougo/neocomplete.vim'
 endif
 
+" Snippets {{{
+  Plug 'SirVer/ultisnips'
+
+  " vim-snipmate default snippets (Previously snipmate-snippets)
+  Plug 'honza/vim-snippets'
+" }}}
 
 " UI Additions {{{
   " Colors {{{
