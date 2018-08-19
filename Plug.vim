@@ -30,6 +30,9 @@ call plug#begin('~/.vim/plugged')
 " a Git wrapper so awesome, it should be illegal; :Gblame, etc
   Plug 'tpope/vim-fugitive'
 
+" extension for fugitive
+  Plug 'tpope/vim-rhubarb'
+
 " Vim sugar for the UNIX shell commands that need it the most; e.g. :Find, :Wall
   Plug 'tpope/vim-eunuch'
 
