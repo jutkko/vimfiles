@@ -24,13 +24,13 @@ call plug#begin('~/.vim/plugged')
 " Seamless navigation between tmux panes and vim splits
   Plug 'christoomey/vim-tmux-navigator'
 
-" quoting/parenthesizing made simple; e.g. ysiw) to wrap word in parens
+" Quoting/parenthesizing made simple; e.g. ysiw) to wrap word in parens
   Plug 'tpope/vim-surround'
 
-" a Git wrapper so awesome, it should be illegal; :Gblame, etc
+" A Git wrapper so awesome, it should be illegal; :Gblame, etc
   Plug 'tpope/vim-fugitive'
 
-" extension for fugitive
+" Extension for fugitive
   Plug 'tpope/vim-rhubarb'
 
 " Vim sugar for the UNIX shell commands that need it the most; e.g. :Find, :Wall
@@ -39,21 +39,21 @@ call plug#begin('~/.vim/plugged')
 " enable repeating supported plugin maps with '.'
   Plug 'tpope/vim-repeat'
 
-" comment stuff out
+" Comment stuff out
   Plug 'tpope/vim-commentary'
 
-" automatically adjusts 'shiftwidth' and 'expandtab' heuristically based
+" Automatically adjusts 'shiftwidth' and 'expandtab' heuristically based
 " on the current file
   Plug 'tpope/vim-sleuth'
 
-" pairs of handy bracket mappings; e.g. [<Space> and ]<Space> add newlines
+" Pairs of handy bracket mappings; e.g. [<Space> and ]<Space> add newlines
 " before and after the cursor line
   Plug 'tpope/vim-unimpaired'
 
-" add emacs/bash/cocoa key bindings to vim, in insert and command-line modes.
+" Add emacs/bash/cocoa key bindings to vim, in insert and command-line modes.
   Plug 'maxbrunsfeld/vim-emacs-bindings'
 
-" vim script for text filtering and alignment; e.g. :Tabularize /,
+" Vim script for text filtering and alignment; e.g. :Tabularize /,
   Plug 'godlygeek/tabular'
 
 " The ultimate undo history visualizer for VIM
@@ -65,7 +65,7 @@ call plug#begin('~/.vim/plugged')
 
 
 if  has('lua')
-" next generation completion framework after neocomplcache
+" Next generation completion framework after neocomplcache
   Plug 'Shougo/neocomplete.vim'
 endif
 
@@ -84,7 +84,6 @@ endif
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes'
     Plug 'mhinz/vim-signify'
-
   " }}}
 
 " Language {{{
@@ -94,7 +93,6 @@ endif
   " A solid language pack for Vim.
   " Adds 70+ languages (syntax and indent only) and optimizes loading and installing.
   Plug 'sheerun/vim-polyglot'
-
   Plug 'scrooloose/syntastic'
 " }}}
 
